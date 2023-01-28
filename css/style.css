@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+    padding: 200px 400px;
+    font-family: Lexend Deca;
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    height: 500px;
+    
+
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.informacoes {
+    display: inline-flex;
+    width: 1065px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+   
+}
+
+.sub-1 {
+    background-color: white;
+}
+
+h2 {
+    font-family: Big Shoulders Display;
+    font-size: 50px;
+    color: hsl(0, 0%, 95%);
+    padding: 0 50px;
+    
+}
+
+img {
+    padding: 50px 50px 30px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding: 26px 50px 130px;
+}
+
+h3 {
+   
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.sub-1 {
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    align-items: center;
+    width: 46%;
+    height: 46px;
+    margin-left: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sub-2 {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    align-items: center;
+    width: 46%;
+    height: 46px;
+    margin-left: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sub-3 {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    align-items: center;
+    width: 46%;
+    height: 46px;
+    margin-left: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+h3:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
